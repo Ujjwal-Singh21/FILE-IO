@@ -13,9 +13,9 @@ public class PrintWriterDemo1 {
         //writing some data into file
         pw.write(100); //d
         pw.println(100); //100
-        pw.println(true);
-        pw.println('c');
-        pw.println("Steve");
+        pw.println(true); //boolean
+        pw.println('c'); //char
+        pw.println("Steve"); //String
 
         pw.flush();
         pw.close();
